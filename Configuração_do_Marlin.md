@@ -1,8 +1,9 @@
+# Abaixo segue as modificações sugeridas no presente trabalho.
+```cpp
 //Linha 71: Escolha do modelo da placa controladora 
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_MKS_ROBIN_NANO_V3_1
 #endif
-
 
 //Linha 84: Definição da porta serial
 #define SERIAL_PORT -1
@@ -108,4 +109,4 @@
 
 // linha 3662: Habilita a função que permite controle mais preciso dos fans controláveis, sem habilitar essa função, os fans funcionam com controle apenas de liga e desliga, sem controle de potência 
 #define FAN_SOFT_PWM
-
+```
