@@ -36,4 +36,4 @@
     Valores “típicos”: variam com placa, compilação, features habilitadas e carga de I/O.
     Microstepping e rampas dependem dos drivers e da mecânica; o MCU só gera STEP/DIR e faz o planejamento.
 
-
+    headroom: capacidade extra ou margem de segurança que o sistema possui além de seus requisitos operacionais nominais. 
